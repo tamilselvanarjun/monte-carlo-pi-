@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='monte_carlo_pi',
-    version='1.0.1',
+    name='montecarlomodel',
+    version='1.0.2',
     packages=find_packages(),
     install_requires=[
         # Add any dependencies your script might have
@@ -10,13 +10,15 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'monte_carlo_pi = montecarlo:monte_carlo_pi',  # Replace 'your_script_name' with the actual name of your script
+            'montecarlomodel = montecarlo:monte_carlo_pi',  # Replace 'your_script_name' with the actual name of your script
         ],
     },
     author='Tamilselvan_Arjunan',
     author_email='nishantamil@gmail.com',
     description='Monte Carlo simulation to estimate the value of π',
-    url='https://github.com/arjunlimat/monte_carlo_pi',  # Update with your GitHub repository URL
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/arjunlimat/montecarlomodel',  # Update with your GitHub repository URL
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

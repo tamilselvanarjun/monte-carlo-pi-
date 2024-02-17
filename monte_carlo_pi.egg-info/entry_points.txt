@@ -1,2 +1,0 @@
-[console_scripts]
-monte_carlo_pi = montecarlo:monte_carlo_pi
