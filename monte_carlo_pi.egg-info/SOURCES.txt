@@ -1,0 +1,7 @@
+README.md
+setup.py
+monte_carlo_pi.egg-info/PKG-INFO
+monte_carlo_pi.egg-info/SOURCES.txt
+monte_carlo_pi.egg-info/dependency_links.txt
+monte_carlo_pi.egg-info/entry_points.txt
+monte_carlo_pi.egg-info/top_level.txt
